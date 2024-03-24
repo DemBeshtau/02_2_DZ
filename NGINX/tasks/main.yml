@@ -10,7 +10,7 @@
     name: nginx
     state: latest
   notify:
-    - restart nginx  
+    - restart nginx
   tags:
     - nginx-package
 
